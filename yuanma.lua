@@ -2,7 +2,7 @@ local CoreGui = game:GetService("StarterGui")CoreGui:SetCore("SendNotification",
 
 local OrionLib = loadstring(game:HttpGet('https://pastebin.com/raw/SePpsSPZ'))()
 
-local Window = OrionLib:MakeWindow({Name = "羊脚本", HidePremium = false, SaveConfig = false, IntroText = "欢迎使用", ConfigFolder = "欢迎使用"})
+local Window = OrionLib:MakeWindow({Name = "rk高级版", HidePremium = false, SaveConfig = false, IntroText = "欢迎使用", ConfigFolder = "欢迎使用"})
 
 local Tab = Window:MakeTab({
     Name = "脚本公告",
